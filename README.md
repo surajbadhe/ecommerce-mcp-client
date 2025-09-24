@@ -12,7 +12,7 @@
 
 ## Description
 
-This project is an MCP Client Gateway built with Spring Boot and Spring AI. It serves as a sophisticated backend-for-frontend (BFF) that connects a user interface (like a chat application) to the [ecommerce-mcp-server](https://github.com/surajbadhe/ecommerce-mcp-server).
+This project is an MCP Client Gateway built with Spring Boot and Spring AI. It serves as a backend-for-frontend (BFF) that connects a user interface (like a chat application) to the [ecommerce-mcp-server](https://github.com/surajbadhe/ecommerce-mcp-server).
 
 Its core responsibility is to receive natural language prompts from a user, use a local LLM (Ollama) to interpret the user's intent, and translate that intent into structured tool calls that are executed by the remote MCP server. This creates a seamless, conversational experience for interacting with a complex backend system.
 
